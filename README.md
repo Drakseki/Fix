@@ -1,1 +1,20 @@
-# Fix
+score = int(input("Please input your score here :"))
+grad = 0
+if score >= 80:
+    grad = 4
+elif score >= 75 and score < 80:
+    grad = 3.5
+elif score >= 70 and score < 75:
+    grad = 3.0
+elif score >= 70 and score < 75:
+    grad = 2.5
+elif score >= 65 and score < 70:
+    grad = 2.5
+elif score >= 60 and score < 65:
+    grad = 2.0
+elif score >= 55 and score < 60:
+    grad = 1.5
+elif score >= 50 and score < 55:
+    grad = 1.0
+else: score = 0.0
+print("Your grade is:"+str(grad))
